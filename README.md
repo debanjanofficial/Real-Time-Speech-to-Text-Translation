@@ -65,3 +65,16 @@ Real_Time_speech_translation/
 ├── README.md # Project documentation
 └── .gitignore # Git ignore file
  ```
+## Usage
+
+(To be added)
+
+## Development
+
+1. Activate virtual environment
+2. Install development dependencies
+3. Run tests: `pytest tests/`
+
+## License
+
+MIT
