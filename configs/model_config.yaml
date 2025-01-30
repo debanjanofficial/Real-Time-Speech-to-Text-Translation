@@ -1,0 +1,17 @@
+speech_recognition:
+  model_name: "facebook/wav2vec2-base"
+  sampling_rate: 16000
+  max_length: 30  # seconds
+  batch_size: 32
+  learning_rate: 0.0001
+
+translation:
+  model_name: "Helsinki-NLP/opus-mt-en-fr"  # example for English to French
+  max_length: 128
+  batch_size: 64
+  learning_rate: 0.00003
+
+training:
+  epochs: 10
+  validation_split: 0.2
+  early_stopping_patience: 3
