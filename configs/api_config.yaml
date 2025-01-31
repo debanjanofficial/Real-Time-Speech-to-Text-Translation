@@ -19,6 +19,11 @@ streaming:
     - mp3
     - ogg
 
-supported_languages:
-  source: ["en", "fr", "es", "de"]
-  target: ["en", "fr", "es", "de"]
+translation:
+  max_audio_length: 30  # seconds
+  supported_languages:
+    - en
+    - es
+    - fr
+    - de
+    - it
