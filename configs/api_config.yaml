@@ -3,10 +3,21 @@ server:
   port: 8000
   debug: true
 
+  cors:
+  origins: ["*"]
+  credentials: true
+  methods: ["*"]
+  headers: ["*"]
+
 streaming:
   chunk_size: 4096
   sample_rate: 16000
+  buffer_size: 32768
   channels: 1
+  supported_formats:
+    - wav
+    - mp3
+    - ogg
 
 supported_languages:
   source: ["en", "fr", "es", "de"]
